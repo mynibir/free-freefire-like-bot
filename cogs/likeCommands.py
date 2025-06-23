@@ -146,8 +146,8 @@ embed.description = (
     "> Please try again **tomorrow** or choose a different UID. 🚫"
 )
 
-                    embed.set_footer(text="DEVELOPED BY THUG")
-                    embed.description += "\n🔗 JOIN : https://discord.gg/awPm5B3QFg"
+                    embed.set_footer(text="Owned by Nibir")
+                    embed.description += "\n🔗 Support: https://discord.gg/CAnmCAJPqB"
                     await ctx.send(embed=embed, mention_author=True, ephemeral=is_slash)
 
         except asyncio.TimeoutError:
