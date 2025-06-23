@@ -140,11 +140,11 @@ class LikeCommands(commands.Cog):
     )
 
                     else:
-embed.description = (
-    "⚠️ **Max Likes Reached**\n"
+                        embed.description = "⚠️ **Max Likes Reached**\n"
     "> This UID has already received the **maximum number of likes** today.\n"
-    "> Please try again **tomorrow** or choose a different UID. 🚫"
-)
+
+
+
 
                     embed.set_footer(text="Owned by Nibir")
                     embed.description += "\n🔗 Support: https://discord.gg/CAnmCAJPqB"
