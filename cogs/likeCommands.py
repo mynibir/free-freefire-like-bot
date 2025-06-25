@@ -123,7 +123,7 @@ class LikeCommands(commands.Cog):
 
                     data = await response.json()
                     embed = discord.Embed(
-                        title="FREE FIRE LIKE",
+                        title="QUANTUM CORPORATION FF LIKE",
                         color=0x2ECC71 if data.get("status") == 1 else 0xE74C3C,
                         timestamp=datetime.now()
                     )
